@@ -18,6 +18,21 @@ export default function Projects() {
       technologies: ["Java", "Android", "SQLite"],
       featured: true,
     },
+    {
+      title: "Travel Booking System",
+      description: "A Travel Booking System for Tourism",
+      github: "https://github.com/sanch194/travel-agent-app_project",
+      technologies: ["Java", "Android", "SQLite"],
+      featured: true,
+    },
+    {
+      title: "Water Distlation managment system",
+      description: "A System Designed to Manage A small to Medium Scale Water Distlation system for a casher and manager where they will be able to track stock, sales, employes",
+      github: "https://github.com/Abdirizak-jarso/aquawater",
+      technologies: ["React","JavaScript", "WebApp", "MongoDB"],
+      featured: true,
+    },
+    
   ];
 
   const containerVariants = {

@@ -38,7 +38,7 @@ export default function Contact() {
     {
       icon: <FaEnvelope />,
       name: "Email",
-      url: "mailto:senaf.getachew@example.com",
+      url: "mailto:gechsenaf@gmail.com",
     },
   ];
 
