@@ -100,13 +100,34 @@ export default function Hero() {
               <span>Get In Touch</span>
             </motion.button>
             <motion.a
-              href="/docs/Portfolio.pdf"
+              href="/docs/Resume_3.pdf"
               download
               className="btn btn-secondary"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
               <FaDownload /> Download Resume
+            </motion.a>
+          </motion.div>
+          <motion.div
+            className="hero-buttons"
+            variants={itemVariants}
+          >
+            <motion.button
+              className="btn btn-primary"
+              onClick={() => scrollToSection("contact")}
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+            >
+            </motion.button>
+            <motion.a
+              href="/docs/Portfolio.pdf"
+              download
+              className="btn btn-secondary"
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <FaDownload /> Download Portfolio
             </motion.a>
           </motion.div>
 
@@ -127,7 +148,7 @@ export default function Hero() {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/senaf-getachew"
+              href="https://linkedin.com/in/senaf-shiferaw"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -138,7 +159,7 @@ export default function Hero() {
               <FaLinkedin />
             </motion.a>
             <motion.a
-              href="mailto:senaf.getachew@example.com"
+              href="mailto:gechsenaf@gmail.com"
               aria-label="Email"
               whileHover={{ scale: 1.15, rotate: 5 }}
               whileTap={{ scale: 0.9 }}

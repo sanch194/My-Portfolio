@@ -27,8 +27,8 @@ export default function About() {
               { text: "Born in Addis Ababa, my journey began in a military college during COVID-19's peak, where I honed resilience, engineering fundamentals, and leadership under pressure. When uncertainty eased, I followed curiosity to Nairobi, trading combat drills for code, enrolling first at Daystar University, then USIU-Africa, where I now pursue Software Development." },
               { text: "My career is a tapestry of contrasts: optimizing supply chains for Matrix Resources' 20+ trucks across East Africa, installing GPS sensors at JAOSTEC, and kneeling on orphanage floors at New Life Trust, washing clothes for children who taught me patience." },
               { text: "At Lamu Port, I witnessed bureaucratic chokeholds crippling trade; in Naivasha, I absorbed peacekeeping strategies at the EASF conference, realizing stability demands both diplomacy and systems that empower." },
-              { text: "These experiences converge in my work: a water delivery app bridging gaps between Nairobi's suburbs and resources, built with Java and grit. My grades may not dazzle, but my hands have calibrated sensors, scrubbed orphanage floors, and debugged algorithms—all guided by a soldier's discipline and a humanitarian's heart." },
-              { text: "I am Senaf Getachew Shiferaw: a bridge-builder between code and communities, driven by the belief that innovation's truest measure is not efficiency, but dignity.", className: "about-closing" },
+              { text: "These experiences converge in my work: a water delivery app bridging gaps between Nairobi's suburbs and resources, built with Java and grit. My grades may not dazzle, but my hands have calibrated sensors, scrubbed orphanage floors, and debugged algorithms all guided by a soldier's discipline and a humanitarian's heart." },
+              { text: "I am Senaf Getachew Shiferaw: a bridge-builder between code and communities, driven by the belief that innovation's truest measure is not efficiency, but dignity.", className: "about closing" },
             ].map((paragraph, index) => (
               <motion.p
                 key={index}

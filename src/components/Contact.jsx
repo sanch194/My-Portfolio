@@ -7,13 +7,13 @@ export default function Contact() {
     {
       icon: <FaEnvelope />,
       label: "Email",
-      value: "senaf.getachew@example.com",
-      link: "mailto:senaf.getachew@example.com",
+      value: "Gechsenaf@gmail.com",
+      link: "mailto:gechsenaf@gmail.com",
     },
     {
       icon: <FaPhone />,
       label: "Phone",
-      value: "+254 XXX XXX XXX",
+      value: "+254 115 140 131",
       link: "tel:+254XXXXXXXXX",
     },
     {

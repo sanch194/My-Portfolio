@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from "react-icons/fa";
 
 export default function Footer() {
-  // dynamic year for copyright
+  
   const currentYear = new Date().getFullYear();
 
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
               © {currentYear} Senaf Getachew Shiferaw. All Rights Reserved.
             </p>
             <p className="footer-heart">
-              Made with <FaHeart /> and dedication
+              Made with Passion and dedication
             </p>
           </div>
           <div className="footer-social">
